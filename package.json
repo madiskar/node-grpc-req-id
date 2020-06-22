@@ -13,6 +13,9 @@
     "compile": "tsc -b lib",
     "lint": "eslint './**/*.{js,ts,tsx}' --fix"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "lint-staged": {
     "*.{ts,js}": [
       "eslint --fix"
